@@ -6,7 +6,23 @@
   <body>
       <h1>Hello HTML</h1>
       <p>Hello From Gitpod!</p>
-      <a href="#footer">Contact to Author</a>
+      <form>
+        <label for="online"> 
+          <input id="online" value="online" type="radio" name="online-offline" checked>Online 
+        </label>
+        <label for="offline"> 
+          <input id="offline" value="offline" type="radio" name="online-offline">Offline 
+        </label>
+      </form>
+      <p>
+        <form action="https://annapalchevska.github.io/hello-world/">
+          <input type="text" placeholder="sign in" required>
+          <button type="submit">Submit</button>
+        </form>
+      </p>
+      <p>
+        <a href="#footer">Contact to Author</a>
+      </p>
       <main>
         <h2>Our steps in learning:</h2>
         <ol>
@@ -36,16 +52,19 @@
           <li>HTML-generators</li>
         </ul>
       </p>
+      <div>
+      <p> What themes are more interesting for you? Please admit:
+        <form>
+          <label for="HTML"><input id="HTML" value="HTML" type="checkbox" name="themes-of-learning" checked>HTML</label>
+          <label for="CSS"><input id="CSS" value="CSS" type="checkbox" name="themes-of-learning">CSS</label>
+          <label for="JS"><input id="JS" value="JS" type="checkbox" name="themes-of-learning">JS</label>
+        </form>
+      </p>
       <p>View more <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">information</a></p>
+      </div>
       <footer id="footer">
         <p>Author: Anna Palchevska</p>
         <a href="mailto:annpalchevska@gmail.com">annpalchevska@gmail.com</a>
-        <p>
-          <form action="https://annapalchevska.github.io/hello-world/">
-            <input type="text" placeholder="sign in" required>
-            <button type="submit">Submit</button>
-          </form>
-        </p>
       </footer>
   </body>
 </html>
