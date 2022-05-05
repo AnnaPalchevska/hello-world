@@ -1,81 +1,99 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport">
-    <title>Hello World!</title>
-  </head>
-  <body>
-      <h1>Hello HTML</h1>
-      <p>Hello From Gitpod!</p>
-      <form>
-        <label for="online"> 
-          <input id="online" value="online" type="radio" name="online-offline" checked>Online 
-        </label>
-        <label for="offline"> 
-          <input id="offline" value="offline" type="radio" name="online-offline">Offline 
-        </label>
-      </form>
-      <p>
-        <form action="https://annapalchevska.github.io/hello-world/">
-          <input type="text" placeholder="sign in" required>
-          <button type="submit">Submit</button>
-        </form>
-      </p>
-      <p>
-        <nav>
-          <a href="/HTML/">HTML</a>
-          <a href="/CSS/">CSS</a>
-          <a href="/JavaScript/">HTML</a>
-        </nav>
-        <a href="#footer">Contact to Author</a>
-      </p>
-      <main>
-        <h2>Our steps in learning:</h2>
-        <ol>
-          <li>HTML – Hypertext Markup Language</li>
-          <li>CSS – Cascading Style Sheets</li>
-          <li>JavaScript – Programming Language</li>
-        </ol>
-      </main>
-      <img src="data:image/jpeg;base64,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" alt="little yoda">
-      <p><a href="https://softserve.academy/">Let's study with us!</a></p>
-      <p>Hypertext Markup Language (HTML) is a markup language for Web pages</p>
-      <p>Hypertext Transport Protocol (HTTP) is a protocol that ensures transport of pages to clients</p>
-      <p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
-        Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
-        HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Browsers do not display the HTML tags but use them to interpret the content of the page.
-        HTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages. Inclusion of CSS defines the look and layout of content. The World Wide Web Consortium (W3C), former maintainer of the HTML and current maintainer of the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997.A form of HTML, known as HTML5, is used to display video and audio, primarily using the element, in collaboration with javascript.</p>
-      <p>
-        <ul> We will learn:
-          <li>HTML-elements</li>
-          <li>HTML-attributes</li>
-          <li>HTML-texts</li>
-          <li>HTML-links</li>
-          <li>HTML-images</li>
-          <li>HTML-tables</li>
-          <li>HTML-lists</li>
-          <li>Special symbols</li>
-          <li>HTML-generators</li>
-        </ul>
-      </p>
-      <div>
-        <p> What themes are more interesting for you? Please admit:
-          <form>
-            <label for="HTML"><input id="HTML" value="HTML" type="checkbox" name="themes-of-learning" checked>HTML</label>
-            <label for="CSS"><input id="CSS" value="CSS" type="checkbox" name="themes-of-learning">CSS</label>
-            <label for="JS"><input id="JS" value="JS" type="checkbox" name="themes-of-learning">JS</label>
-          </form>
-        </p>
-        <article>
-          <h2>Google Chrome</h2>
-          <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
-          </article>
-      <p>View more <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">information</a></p>
-      </div>
-      <footer id="footer">
-        <p>Author: Anna Palchevska</p>
-        <a href="mailto:annpalchevska@gmail.com">annpalchevska@gmail.com</a>
-      </footer>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello World!</title>
+</head>
+
+<body>
+  <h1>Hello HTML</h1>
+  <p>Hello From Gitpod!</p>
+  <form>
+    <label for="online">
+      <input id="online" value="online" type="radio" name="online-offline" checked>Online
+    </label>
+    <label for="offline">
+      <input id="offline" value="offline" type="radio" name="online-offline">Offline
+    </label>
+  </form>
+  <p>
+  <form action="https://annapalchevska.github.io/hello-world/">
+    <input type="text" placeholder="sign in" required>
+    <button type="submit">Submit</button>
+  </form>
+  </p>
+  <p>
+  <nav>
+    <a href="/HTML/">HTML</a>
+    <a href="/CSS/">CSS</a>
+    <a href="/JavaScript/">HTML</a>
+  </nav>
+  <a href="#footer">Contact to Author</a>
+  </p>
+  <main>
+    <h2>Our steps in learning:</h2>
+    <ol>
+      <li>HTML – Hypertext Markup Language</li>
+      <li>CSS – Cascading Style Sheets</li>
+      <li>JavaScript – Programming Language</li>
+    </ol>
+  </main>
+  <img
+    src="data:image/jpeg;base64,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"
+    alt="little yoda">
+  <p><a href="https://softserve.academy/">Let's study with us!</a></p>
+  <p>Hypertext Markup Language (HTML) is a markup language for Web pages</p>
+  <p>Hypertext Transport Protocol (HTTP) is a protocol that ensures transport of pages to clients</p>
+  <p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a
+    web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as
+    JavaScript.
+    Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia
+    web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance
+    of the document.
+    HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as
+    interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by
+    denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML
+    elements are delineated by tags, written using angle brackets. Browsers do not display the HTML tags but use them to
+    interpret the content of the page.
+    HTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and content
+    of web pages. Inclusion of CSS defines the look and layout of content. The World Wide Web Consortium (W3C), former
+    maintainer of the HTML and current maintainer of the CSS standards, has encouraged the use of CSS over explicit
+    presentational HTML since 1997.A form of HTML, known as HTML5, is used to display video and audio, primarily using
+    the element, in collaboration with javascript.</p>
+  <p>
+  <ul> We will learn:
+    <li>HTML-elements</li>
+    <li>HTML-attributes</li>
+    <li>HTML-texts</li>
+    <li>HTML-links</li>
+    <li>HTML-images</li>
+    <li>HTML-tables</li>
+    <li>HTML-lists</li>
+    <li>Special symbols</li>
+    <li>HTML-generators</li>
+  </ul>
+  </p>
+  <div>
+    <p> What themes are more interesting for you? Please admit:
+    <form>
+      <label for="HTML"><input id="HTML" value="HTML" type="checkbox" name="themes-of-learning" checked>HTML</label>
+      <label for="CSS"><input id="CSS" value="CSS" type="checkbox" name="themes-of-learning">CSS</label>
+      <label for="JS"><input id="JS" value="JS" type="checkbox" name="themes-of-learning">JS</label>
+    </form>
+    </p>
+    <article>
+      <h2>Google Chrome</h2>
+      <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web
+        browser today!</p>
+    </article>
+    <p>View more <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">information</a></p>
+  </div>
+  <footer id="footer">
+    <p>Author: Anna Palchevska</p>
+    <a href="mailto:annpalchevska@gmail.com">annpalchevska@gmail.com</a>
+  </footer>
+</body>
+
 </html>
